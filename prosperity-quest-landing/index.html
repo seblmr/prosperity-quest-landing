@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ta quête RPG pour devenir millionnaire. Quêtes quotidiennes, niveaux, récompenses et communauté.">
+  <title>Prosperity.Quest • Ta quête vers la richesse commence ici</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    .hero-bg { background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%); }
+    .gold { color: #facc15; }
+    .sword { animation: swing 2s infinite alternate; }
+  </style>
+</head>
+<body class="bg-black text-white font-sans">
+
+  <!-- NAVBAR -->
+  <nav class="border-b border-yellow-500/20 bg-black/80 backdrop-blur-md fixed w-full z-50">
+    <div class="max-w-6xl mx-auto px-6 py-5 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <span class="text-3xl sword">⚔️</span>
+        <h1 class="text-2xl font-bold tracking-widest">PROSPERITY<span class="gold">.QUEST</span></h1>
+      </div>
+      <a href="https://t.me/ProsperityQuestBot" target="_blank"
+         class="bg-yellow-400 hover:bg-yellow-300 text-black font-bold px-8 py-3 rounded-xl flex items-center gap-2 transition">
+        <i class="fas fa-rocket"></i> REJOINS LA QUÊTE
+      </a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero-bg min-h-screen flex items-center pt-20">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+      <div class="space-y-8">
+        <div class="inline-flex items-center gap-2 bg-yellow-400/10 text-yellow-400 px-6 py-2 rounded-3xl text-sm font-medium">
+          <i class="fas fa-fire"></i> 1 247 aventuriers en ligne
+        </div>
+        
+        <h1 class="text-6xl md:text-7xl font-bold leading-none tracking-tighter">
+          TA VIE<br>DEVENUE<br><span class="gold">LÉGENDE</span>
+        </h1>
+        
+        <p class="text-2xl text-gray-300 max-w-lg">
+          Le RPG financier qui transforme tes journées en quêtes épiques.<br>
+          Niveaux • XP • Artefacts • Communauté • Million en vue.
+        </p>
+
+        <div class="flex flex-wrap gap-4">
+          <a href="https://t.me/ProsperityQuestBot" target="_blank"
+             class="bg-yellow-400 text-black font-bold text-xl px-10 py-5 rounded-2xl hover:scale-105 transition flex items-center gap-3">
+            <i class="fas fa-play"></i> LANCER MA QUÊTE
+          </a>
+          <a href="#royaumes" 
+             class="border border-yellow-400 text-yellow-400 font-bold text-xl px-10 py-5 rounded-2xl hover:bg-yellow-400/10 transition">
+            Voir les 4 royaumes →
+          </a>
+        </div>
+
+        <div class="flex items-center gap-8 text-sm">
+          <div>⭐ 4.98/5 par les questers</div>
+          <div class="flex -space-x-4">
+            <div class="w-8 h-8 bg-purple-500 rounded-full flex items-center justify-center text-xs ring-2 ring-black">🔥</div>
+            <div class="w-8 h-8 bg-emerald-500 rounded-full flex items-center justify-center text-xs ring-2 ring-black">💰</div>
+            <div class="w-8 h-8 bg-amber-500 rounded-full flex items-center justify-center text-xs ring-2 ring-black">🏆</div>
+          </div>
+          <div>« J’ai déjà +340 € en 18 jours » – @AlexandreP</div>
+        </div>
+      </div>
+
+      <div class="hidden md:flex justify-center">
+        <div class="relative">
+          <div class="w-80 h-80 bg-gradient-to-br from-yellow-400 to-amber-600 rounded-3xl rotate-12 flex items-center justify-center text-8xl shadow-2xl shadow-yellow-400/50">
+            🗡️
+          </div>
+          <div class="absolute -top-6 -right-6 bg-black border border-yellow-400 text-yellow-400 px-6 py-3 rounded-2xl text-center text-sm font-bold">
+            NIVEAU 12<br>
+            <span class="text-3xl">1 840 XP</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LES 4 ROYAUMES -->
+  <section id="royaumes" class="py-20 bg-zinc-950">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-12">4 Royaumes. Une seule destination : la richesse.</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div class="bg-zinc-900 p-8 rounded-3xl hover:scale-105 transition border border-yellow-400/30">
+          <div class="text-5xl mb-4">🧠</div>
+          <h3 class="text-2xl font-bold gold">Mindset</h3>
+          <p class="text-gray-400 mt-3">Transforme tes croyances en aimant à abondance.</p>
+        </div>
+        <div class="bg-zinc-900 p-8 rounded-3xl hover:scale-105 transition border border-yellow-400/30">
+          <div class="text-5xl mb-4">📚</div>
+          <h3 class="text-2xl font-bold gold">Savoir</h3>
+          <p class="text-gray-400 mt-3">Apprends des rois de la finance en 10 min/jour.</p>
+        </div>
+        <div class="bg-zinc-900 p-8 rounded-3xl hover:scale-105 transition border border-yellow-400/30">
+          <div class="text-5xl mb-4">⚡</div>
+          <h3 class="text-2xl font-bold gold">Action</h3>
+          <p class="text-gray-400 mt-3">Quêtes concrètes qui font bouger ton compte en banque.</p>
+        </div>
+        <div class="bg-zinc-900 p-8 rounded-3xl hover:scale-105 transition border border-yellow-400/30">
+          <div class="text-5xl mb-4">🌍</div>
+          <h3 class="text-2xl font-bold gold">Abondance</h3>
+          <p class="text-gray-400 mt-3">Partage, parrainage, célébration et richesse collective.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMMENT ÇA MARCHE -->
+  <section class="py-20">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h2 class="text-4xl font-bold mb-8">3 minutes pour commencer ta légende</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div>
+          <div class="text-6xl mb-4">1️⃣</div>
+          <h3 class="text-xl font-bold">Rejoins le bot</h3>
+          <p class="text-gray-400">Clique sur le bouton → /start</p>
+        </div>
+        <div>
+          <div class="text-6xl mb-4">2️⃣</div>
+          <h3 class="text-xl font-bold">Reçois ta quête du jour</h3>
+          <p class="text-gray-400">Chaque matin, une mission qui te fait progresser.</p>
+        </div>
+        <div>
+          <div class="text-6xl mb-4">3️⃣</div>
+          <h3 class="text-xl font-bold">Monte de niveau & gagne</h3>
+          <p class="text-gray-400">XP → Badges → Artefacts → Récompenses réelles.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="py-24 bg-gradient-to-b from-transparent via-yellow-400/10 to-transparent text-center">
+    <div class="max-w-2xl mx-auto px-6">
+      <h2 class="text-5xl font-bold mb-6">Prêt à écrire ton histoire de millionnaire ?</h2>
+      <a href="https://t.me/ProsperityQuestBot" target="_blank"
+         class="inline-flex bg-yellow-400 text-black font-bold text-3xl px-16 py-8 rounded-3xl hover:scale-110 transition shadow-2xl shadow-yellow-400/50">
+        COMMENCER MA QUÊTE MAINTENANT ⚔️
+      </a>
+      <p class="text-gray-400 mt-8">Zéro carte bleue • Zéro engagement • Juste du feu</p>
+    </div>
+  </section>
+
+  <footer class="bg-black py-12 border-t border-yellow-400/20 text-center text-sm text-gray-500">
+    <p>© 2026 Prosperity.Quest — Ton RPG financier personnel</p>
+    <p class="mt-2">Fait avec ❤️ et 150 € depuis un téléphone Android</p>
+  </footer>
+
+  <script>
+    // Tailwind script
+    tailwind.config = {
+      content: [],
+      theme: { extend: {} }
+    }
+  </script>
+</body>
+</html>
